@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.example.myschoolquiz.QuestionActivity">
+
+    <TextView
+        android:id="@+id/question_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:paddingTop="@dimen/single_margin"
+        android:text="Current Question Number"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/double_margin"
+        android:background="@color/colorPrimaryLight"
+        android:padding="@dimen/double_margin"
+        android:text="Question text"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <RadioGroup
+        android:id="@+id/all_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/double_margin">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next_question_btn"
+        style="@style/buttons"
+        android:onClick="onNextQuestionClick"
+        android:text="@string/next"/>
+</LinearLayout>

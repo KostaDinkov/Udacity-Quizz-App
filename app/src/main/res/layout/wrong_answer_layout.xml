@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/wrong_answer_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryLight"
+        android:padding="8dp"
+        android:text="Question"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Selected answer:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wrong_answer_selected_answer"
+        style="@style/wrong_answer_textView"
+        android:text="Given answer: Some given answer"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Correct answer:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wrong_answer_correct_answer"
+        style="@style/wrong_answer_textView"
+        android:text="The correct answer"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Explanation:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wrong_answer_explanation"
+        style="@style/wrong_answer_textView"
+        android:text="Some explanation"/>
+
+
+</LinearLayout>

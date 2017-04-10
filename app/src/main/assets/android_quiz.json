@@ -1,0 +1,187 @@
+{
+  "id": 1,
+  "name": "Basic Android UI Quiz",
+  "description": "A simple quiz with some simple questions regarding basic Android features",
+  "questions": [
+    {
+      "points": 1,
+      "text": "What is a context in android ?",
+      "explanation": "Some quick explanation",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "It is an interface to store global information about an application",
+          "isCorrect": false
+        },
+        {
+          "text": "It is used to create new components.",
+          "isCorrect": false
+        },
+        {
+          "text": "Android has two contexts, those are getContext() and getApplicationContext()",
+          "isCorrect": false
+        },
+        {
+          "text": "All of Above",
+          "isCorrect": true
+        },
+        {
+          "text": "None of Above",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "How many threads are there in asyncTask in android?",
+      "explanation": "Another simple explanation",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Only one",
+          "isCorrect": true
+        },
+        {
+          "text": "Two",
+          "isCorrect": false
+        },
+        {
+          "text": "AsynTask doesn\u0027t have tread",
+          "isCorrect": false
+        },
+        {
+          "text": "None of the Above",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "What is Android?",
+      "explanation": "Android is a stack of software applications for mobile devices, which includes an operating system, middleware applications, and some key applications.",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Android is a stack of software's for mobility",
+          "isCorrect": true
+        },
+        {
+          "text": "Google mobile device name",
+          "isCorrect": false
+        },
+        {
+          "text": "Virtual machine",
+          "isCorrect": false
+        },
+        {
+          "text": "None of the Above",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "What are the layouts available in android?",
+      "explanation": "Android is having Linear Layout(Horizontal and Vertical), Frame Layout, Table Layout,  Relative Layout and some other.",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Linear Layout",
+          "isCorrect": false
+        },
+        {
+          "text": "Frame Layout",
+          "isCorrect": false
+        },
+        {
+          "text": "Table Layout",
+          "isCorrect": false
+        },
+        {
+          "text": "Relative Layout",
+          "isCorrect": false
+        },
+        {
+          "text": "All of above",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "Which features are considered while creating android application?",
+      "explanation": "Before creating an application, developers should consider screen size, input configuration, version, and device features.",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Screen Size",
+          "isCorrect": false
+        },
+        {
+          "text": "Input configuration",
+          "isCorrect": false
+        },
+        {
+          "text": "Platform Version",
+          "isCorrect": false
+        },
+        {
+          "text": "Device features",
+          "isCorrect": false
+        },
+        {
+          "text": "All of above",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "How to pass the data between activities in Android?",
+      "explanation": "An Intent is used to connect one activity to another activity and having a message passing mechanism between activities.",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Intent",
+          "isCorrect": true
+        },
+        {
+          "text": "Content Provider",
+          "isCorrect": false
+        },
+        {
+          "text": "Broadcast receiver",
+          "isCorrect": false
+        },
+        {
+          "text": "None of the Above",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "points": 1,
+      "text": "What is APK in android?",
+      "explanation": "APK is an android packaging kit. We can pack/zip, our code in apk format to work on Android devices as an application.",
+      "selectedAnswers": [],
+      "allAnswers": [
+        {
+          "text": "Android packages",
+          "isCorrect": false
+        },
+        {
+          "text": "Android pack",
+          "isCorrect": false
+        },
+        {
+          "text": "Android packaging kit",
+          "isCorrect": true
+        },
+        {
+          "text": "None of the Above",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.example.myschoolquiz.QuizSelection">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/quizz_app_banner"/>
+
+    <TextView
+        style="@style/textView_centered"
+        android:layout_marginLeft="@dimen/double_margin"
+        android:layout_marginRight="@dimen/double_margin"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"/>
+
+    <TextView
+        style="@style/textView_centered"
+        android:layout_marginBottom="@dimen/double_margin"
+        android:text="@string/choose_a_quiz"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <RadioGroup
+        android:id="@+id/quiz_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+    </RadioGroup>
+
+    <Button
+        style="@style/buttons"
+        android:onClick="onSelectQuizClick"
+        android:text="@string/select_quiz"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.example.myschoolquiz.QizInfoActivity">
+
+    <TextView
+        android:id="@+id/quiz_name"
+        style="@style/textView_centered_heading"
+        android:text="@string/quiz_name"/>
+
+    <TextView
+        android:id="@+id/quiz_description"
+        style="@style/textView_centered"
+        android:layout_marginLeft="@dimen/double_margin"
+        android:layout_marginRight="@dimen/double_margin"
+        android:text="Description:\nThis string will be generated dynamically via code."
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/quiz_quest_count"
+        style="@style/textView_centered"
+        android:text="@string/number_of_questions"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <Button
+
+        style="@style/buttons"
+        android:onClick="onStartQuizClick"
+        android:text="@string/start"/>
+
+</LinearLayout>
