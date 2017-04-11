@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,13 +9,13 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.example.myschoolquiz.data.QuizData;
-import com.android.example.myschoolquiz.models.Answer;
-import com.android.example.myschoolquiz.models.Question;
-import com.android.example.myschoolquiz.models.Quiz;
-import com.android.example.myschoolquiz.models.QuizSummary;
-import com.android.example.myschoolquiz.utils.Constants;
-import com.android.example.myschoolquiz.utils.Utils;
+import com.android.example.quizapp.data.QuizData;
+import com.android.example.quizapp.models.Answer;
+import com.android.example.quizapp.models.Question;
+import com.android.example.quizapp.models.Quiz;
+import com.android.example.quizapp.models.QuizSummary;
+import com.android.example.quizapp.utils.Constants;
+import com.android.example.quizapp.utils.Utils;
 
 public class QuestionActivity extends AppCompatActivity {
 

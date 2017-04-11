@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.android.example.myschoolquiz.data.QuizData;
-import com.android.example.myschoolquiz.models.Quiz;
-import com.android.example.myschoolquiz.utils.Constants;
+import com.android.example.quizapp.data.QuizData;
+import com.android.example.quizapp.models.Quiz;
+import com.android.example.quizapp.utils.Constants;
 
 public class QuizSelection extends AppCompatActivity {
 

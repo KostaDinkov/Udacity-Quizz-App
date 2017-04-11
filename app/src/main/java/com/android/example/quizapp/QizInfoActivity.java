@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.example.myschoolquiz.data.QuizData;
-import com.android.example.myschoolquiz.models.Quiz;
-import com.android.example.myschoolquiz.models.QuizSummary;
-import com.android.example.myschoolquiz.utils.Constants;
-import com.android.example.myschoolquiz.utils.Utils;
+import com.android.example.quizapp.data.QuizData;
+import com.android.example.quizapp.models.Quiz;
+import com.android.example.quizapp.models.QuizSummary;
+import com.android.example.quizapp.utils.Constants;
+import com.android.example.quizapp.utils.Utils;
 
 public class QizInfoActivity extends AppCompatActivity {
 

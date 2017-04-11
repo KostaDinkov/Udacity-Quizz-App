@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.android.example.myschoolquiz.QuestionActivity">
+    tools:context="com.android.example.quizapp.QuestionActivity">
 
     <TextView
         android:id="@+id/question_progress"

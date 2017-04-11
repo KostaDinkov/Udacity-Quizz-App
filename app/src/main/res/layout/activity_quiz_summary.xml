@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.android.example.myschoolquiz.QuizSummaryActivity">
+    tools:context="com.android.example.quizapp.QuizSummaryActivity">
 
     <LinearLayout
         android:id="@+id/QuizSummary_heading"

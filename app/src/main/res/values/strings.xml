@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My School Quiz</string>
+    <string name="app_name">Android Quiz App</string>
     <string name="welcome_text">Below you can see all currently available quizzes at Udacitys School of Android Development.</string>
     <string name="choose_a_quiz">Choose a quiz:</string>
     <string name="select_quiz">Select Quiz</string>

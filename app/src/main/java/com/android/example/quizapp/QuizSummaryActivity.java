@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.android.example.myschoolquiz.models.AnsweredQuestion;
-import com.android.example.myschoolquiz.models.QuizSummary;
+import com.android.example.quizapp.models.AnsweredQuestion;
+import com.android.example.quizapp.models.QuizSummary;
 
 import java.util.ArrayList;
 

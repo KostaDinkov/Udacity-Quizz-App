@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

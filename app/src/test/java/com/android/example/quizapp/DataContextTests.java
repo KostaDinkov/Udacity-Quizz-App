@@ -1,7 +1,7 @@
-package com.android.example.myschoolquiz;
+package com.android.example.quizapp;
 
-import com.android.example.myschoolquiz.models.Quiz;
-import com.android.example.myschoolquiz.utils.Utils;
+import com.android.example.quizapp.models.Quiz;
+import com.android.example.quizapp.utils.Utils;
 
 import org.junit.Test;
 

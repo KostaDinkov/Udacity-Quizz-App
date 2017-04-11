@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz.models;
+package com.android.example.quizapp.models;
 
 import android.app.Application;
 

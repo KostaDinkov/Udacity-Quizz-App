@@ -1,4 +1,4 @@
-package com.android.example.myschoolquiz.utils;
+package com.android.example.quizapp.utils;
 
 public class Constants {
 

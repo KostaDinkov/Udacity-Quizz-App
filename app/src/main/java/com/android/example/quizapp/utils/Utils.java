@@ -1,6 +1,6 @@
-package com.android.example.myschoolquiz.utils;
+package com.android.example.quizapp.utils;
 
-import com.android.example.myschoolquiz.models.Quiz;
+import com.android.example.quizapp.models.Quiz;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
