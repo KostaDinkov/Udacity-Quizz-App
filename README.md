@@ -2,6 +2,9 @@
 
 This is a project asignment for Udacitys Android Development for Beginners course.
 
+### Video
+A video of the functionality of the application can be found [here](https://youtu.be/icfdMuR0VtA).
+
 ### Project Overview
 The Quiz App project is a chance for you to combine and practice everything you learned in this section of the course. You will be making your own Android app - taking it from the idea stage to building out the full app. You can share your app with family and friends, as well as with other students in this course.
 
